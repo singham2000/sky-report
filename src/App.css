@@ -1,38 +1,66 @@
-.App {
+body {
+  background-image: url("images/back.jpg");
+}
+.tab {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh;
+  color: azure;
+  font-size: larger;
+  font-weight: 300;
+  background: rgba(71, 63, 63, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+}
+.optionstab {
+  padding: 1vh;
+  width: 100%;
+  text-align: right;
+  font-size: larger;
+}
+.citynametab {
+  padding: 1vh;
+  width: 100%;
+  font-size: larger;
+}
+.center {
   text-align: center;
+  padding: 3vh;
+  font-size: 5rem;
+  font-weight: 100;
+  color: aliceblue;
+  text-shadow: 4px 14px 6px rgba(150, 150, 150, 1);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottomtab {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputs {
+  /* background-color: aqua; */
+  font-size: 1.5rem;
+  height: 10vh;
+  width: 10vh;
+  color: rgb(18, 124, 218);
+  text-shadow: 4px 14px 6px rgba(150, 150, 150, 1);
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bottom {
+  border-radius: 12px;
+  padding: 2vh;
+  margin: 2vh;
+  background: rgba(247, 241, 241, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(55, 56, 63, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description{
+  font-size: 2rem;
+  font-weight: 100;
+  text-shadow: 4px 14px 6px rgb(27, 95, 104);
 }
