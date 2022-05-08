@@ -8,7 +8,6 @@ function App() {
   const [wdata, setWdata] = useState([]);
   const [winds, setWinds] = useState([]);
   const [cloud, setCloud] = useState([]);
-  const [visibility, setVisibility] = useState([]);
   const [locdata, setLocdata] = useState([]);
   const fetchdata = useRef(true);
   // "https://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&appid=e646769d04d082ce20e4469c63f69074";
